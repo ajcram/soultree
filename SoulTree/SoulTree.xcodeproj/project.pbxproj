@@ -19,6 +19,8 @@
 		3B86A3C71837E0920015A6F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B86A3AF1837E0920015A6F0 /* UIKit.framework */; };
 		3B86A3CF1837E0920015A6F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B86A3CD1837E0920015A6F0 /* InfoPlist.strings */; };
 		3B86A3D11837E0920015A6F0 /* SoulTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B86A3D01837E0920015A6F0 /* SoulTreeTests.m */; };
+		8B43310D183AB5C7004091E5 /* AnimatedLeaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B43310A183AB5C7004091E5 /* AnimatedLeaf.m */; };
+		8B43310E183AB5C7004091E5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B43310C183AB5C7004091E5 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		3B86A3CC1837E0920015A6F0 /* SoulTreeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoulTreeTests-Info.plist"; sourceTree = "<group>"; };
 		3B86A3CE1837E0920015A6F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3B86A3D01837E0920015A6F0 /* SoulTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoulTreeTests.m; sourceTree = "<group>"; };
+		8B433109183AB5C7004091E5 /* AnimatedLeaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedLeaf.h; sourceTree = "<group>"; };
+		8B43310A183AB5C7004091E5 /* AnimatedLeaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedLeaf.m; sourceTree = "<group>"; };
+		8B43310B183AB5C7004091E5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		8B43310C183AB5C7004091E5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,10 @@
 		3B86A3B11837E0920015A6F0 /* SoulTree */ = {
 			isa = PBXGroup;
 			children = (
+				8B433109183AB5C7004091E5 /* AnimatedLeaf.h */,
+				8B43310A183AB5C7004091E5 /* AnimatedLeaf.m */,
+				8B43310B183AB5C7004091E5 /* RootViewController.h */,
+				8B43310C183AB5C7004091E5 /* RootViewController.m */,
 				3B86A3BA1837E0920015A6F0 /* AppDelegate.h */,
 				3B86A3BB1837E0920015A6F0 /* AppDelegate.m */,
 				3B86A3BD1837E0920015A6F0 /* Images.xcassets */,
@@ -240,6 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B86A3BC1837E0920015A6F0 /* AppDelegate.m in Sources */,
+				8B43310D183AB5C7004091E5 /* AnimatedLeaf.m in Sources */,
+				8B43310E183AB5C7004091E5 /* RootViewController.m in Sources */,
 				3B86A3B81837E0920015A6F0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +455,7 @@
 				3B86A3D61837E0920015A6F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B86A3D71837E0920015A6F0 /* Build configuration list for PBXNativeTarget "SoulTreeTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +464,7 @@
 				3B86A3D91837E0920015A6F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
