@@ -24,14 +24,8 @@
         for( int i = 0; i < NUMBER_OF_FRAMES; i++)
         {
             NSString* pathString;
-            if( i < 10 )
-            {
-                pathString = [NSString stringWithFormat:@"blue_leaf_a_0000%d.png", i];
-            }
-            else
-            {
-                pathString = [NSString stringWithFormat:@"blue_leaf_a_000%d.png", i];
-            }
+
+            pathString = [NSString stringWithFormat:@"blue_leaf_a_%05d.png", i];
             
             NSString *path = [[NSBundle mainBundle] pathForResource:pathString ofType:nil];
             UIImage* image = [[UIImage alloc]initWithContentsOfFile:path];
