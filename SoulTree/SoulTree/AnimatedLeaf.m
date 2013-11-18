@@ -26,11 +26,11 @@
             NSString* pathString;
             if( i < 10 )
             {
-                pathString = [NSString stringWithFormat:@"/images/blue_leaf_a_0000%d.png", i];
+                pathString = [NSString stringWithFormat:@"blue_leaf_a_0000%d.png", i];
             }
             else
             {
-                pathString = [NSString stringWithFormat:@"/images/blue_leaf_a_000%d.png", i];
+                pathString = [NSString stringWithFormat:@"blue_leaf_a_000%d.png", i];
             }
             
             NSString *path = [[NSBundle mainBundle] pathForResource:pathString ofType:nil];
