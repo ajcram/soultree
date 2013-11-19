@@ -6,8 +6,17 @@
 //  Copyright (c) 2013 AJ Cram. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+typedef NS_ENUM(NSUInteger, LeafColor) {
+    LeafColorBlue,
+    LeafColorGreen,
+    LeafColorOrange,
+    LeafColorPink,
+    LeafColorRed,
+    LeafColorTeal
+};
 
 @interface AnimatedLeaf : UIImageView
+
+-(id) initWithFrame:(CGRect)frame andColor:(LeafColor)leafColor;
 
 @end
